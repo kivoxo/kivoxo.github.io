@@ -78,3 +78,13 @@ footer {
   opacity: 0.6;
   font-size: 0.9rem;
 }
+
+.profile-img {
+  display: block;
+  margin: 1rem auto 0 auto; /* centré et un peu d’espace au-dessus */
+  border-radius: 50%;       /* rond */
+  width: 150px;             /* taille */
+  height: 150px;
+  object-fit: cover;        /* garde les proportions de l’image */
+  border: 3px solid #00c6ff; /* contour bleu clair */
+}
