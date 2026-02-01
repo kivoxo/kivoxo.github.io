@@ -88,3 +88,14 @@ footer {
   object-fit: cover;        /* garde les proportions de l’image */
   border: 3px solid #00c6ff; /* contour bleu clair */
 }
+
+.banner-img {
+  display: block;
+  width: 100%;       /* prend toute la largeur de la section ou du conteneur */
+  height: auto;      /* garde les proportions */
+  border-radius: 5;  /* plus de coins arrondis */
+  object-fit: cover; /* recadrage si nécessaire */
+  margin-top: 1rem;  /* un peu d’espace au-dessus */
+  border: none;      /* pas de contour */
+}
+
